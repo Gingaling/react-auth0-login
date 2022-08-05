@@ -12,7 +12,7 @@ root.render(
   <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri={https://resilient-kashata-b34c57.netlify.app}>
+    redirectUri={window.location.origin}>
     <App />
   </Auth0Provider>
 );
